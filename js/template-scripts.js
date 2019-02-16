@@ -21,4 +21,5 @@ jQuery(document).ready(function($) {
     animateOut: 'fadeOut',
     autoplayTimeout: 4000
   });  
+  window.dispatchEvent(new Event('resize'));
 });
